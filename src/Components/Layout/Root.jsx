@@ -1,8 +1,10 @@
+import { Outlet } from "react-router-dom";
+
 
 const Root = () => {
     return (
-        <div>
-            
+        <div className="container mx-auto font-primary p-5">
+            <Outlet />
         </div>
     );
 };
